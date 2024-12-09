@@ -1,0 +1,505 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(243, 242, 242);
+    padding: 2px 100px;
+    color: white;
+}
+
+.logo h1 {
+    font-size: 35px;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.unorder ul {
+    list-style: none;
+    display: flex;
+}
+
+header .unorder ul li {
+    margin-left: 20px;
+}
+
+.link {
+    color: rgb(32, 36, 100);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: black    ;
+    position: relative;
+    bottom: 3px;
+}
+/* footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+/* footer */
+.ball{
+    color: #007BFF;
+}
+.bat{
+    color: black;
+}
+.aja{
+    font-size: 20px;
+    height: 500px;
+    width: 600px;
+    position: relative;
+    left: 100px;
+    top: 80px;
+}
+.aja1{
+    color: #054283;
+    font-size: 50px;
+} 
+.aja3{
+    color: black;
+    font-size: 30px;
+}
+.aja2{
+    font-size: 20px;
+    background-color: #007BFF;
+    color: #f3f0f0;
+    padding: 10px 20px;
+    border: none;
+    height: 60px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 2px rgb(201, 201, 238);
+}  
+.aja2:hover{
+    background-color: gray;
+} 
+.application{
+    position: relative;
+    left: 170px;
+}
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+}
+.who{
+    color: rgb(31, 31, 247);
+}
+.wizards{
+    color: #144880;
+}
+.parent2{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+    background-color: white;
+    justify-content: center;
+    margin: 0px 0px 100px 0px ;
+    flex-wrap: wrap;
+}
+.TECHNOLOGIES{
+    color: blue;
+    text-align: center;
+    font-size: 25px;
+}
+.expert{
+    font-size: 50px;
+    color: #144880;
+    text-align: center;
+}
+.parent3{
+    display: flex;
+    gap: 35px;
+    background-color: white;
+    flex-wrap: wrap;
+}
+.padding{
+    margin: 100px 0px 0px 0px;
+}
+.patta1{
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    padding: 40px 0px 0px 0px;
+    border: none;
+    border-bottom: 5px solid blue;
+}
+.teddy1{
+    margin: 0px 0px 0px 140px;
+    background-color: rgb(154, 154, 236);
+    padding: 10px;
+    border-radius: 5px;
+}
+.developer{
+    text-align: center;
+    font-size: 30px;
+}
+.wafa{
+    text-align: center;
+    font-size: 20px;
+}
+.patta2{
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    padding: 40px 0px 0px 0px;
+    border: none;
+    border-bottom: 5px solid orange;
+}
+.teddy2{
+    margin: 0px 0px 0px 140px;
+    background-color: rgb(243, 199, 149);
+    padding: 10px;
+    border-radius: 5px;
+}
+.developer{
+    text-align: center;
+    font-size: 30px;
+}
+.wafa{
+    text-align: center;
+    font-size: 20px;
+}
+.patta3{
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    padding: 40px 0px 0px 0px;
+    border: none;
+    border-bottom: 5px solid greenyellow;
+}
+.teddy3{
+    margin: 0px 0px 0px 140px;
+    background-color: rgb(177, 218, 117);
+    padding: 10px;
+    border-radius: 5px;
+}
+.developer{
+    text-align: center;
+    font-size: 30px;
+}
+.wafa{
+    text-align: center;
+    font-size: 20px;
+}
+.patta4{
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    padding: 40px 0px 0px 0px;
+    border: none;
+    border-bottom: 5px solid red;
+}
+.teddy4{
+    margin: 0px 0px 0px 140px;
+    background-color: rgb(238, 87, 87);
+    padding: 10px;
+    border-radius: 5px;
+}
+.developer{
+    text-align: center;
+    font-size: 30px;
+}
+.wafa{
+    text-align: center;
+    font-size: 20px;
+}
+.patta5{
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    padding: 40px 0px 0px 0px;
+    border: none;
+    border-bottom: 5px solid purple;
+}
+.teddy5{
+    margin: 0px 0px 0px 140px;
+    background-color: rgb(189, 52, 189);
+    padding: 10px;
+    border-radius: 5px;
+}
+.developer{
+    text-align: center;
+    font-size: 30px;
+}
+.wafa{
+    text-align: center;
+    font-size: 20px;
+}
+.patta6{
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    padding: 40px 0px 0px 0px;
+    border: none;
+    border-bottom: 5px solid rgb(221, 103, 123);
+}
+.teddy6{
+    margin: 0px 0px 0px 140px;
+    background-color: pink;
+    padding: 10px;
+    border-radius: 5px;
+}
+.developer{
+    text-align: center;
+    font-size: 30px;
+}
+.wafa{
+    text-align: center;
+    font-size: 20px;
+}
+.parent4{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.parent5{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.patta1:hover{
+    background-color: #0056b3;
+}
+.patta2:hover{
+    background-color: orange;
+}
+.patta3:hover{
+    background-color: green;
+}
+.patta4:hover{
+    background-color: red;
+}
+.patta5:hover{
+    background-color: purple;
+}
+.patta6:hover{
+    background-color: rgb(240, 116, 136);
+}
+.info{
+    color: purple;
+}
+.more{
+    color: rgb(201, 104, 120);
+}
+.tabs{
+    display: flex;
+}
+.innovation{
+    position: relative;
+    bottom: 20px;
+}
+.innovative {
+    display: flex;
+    height: 100vh;
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}                           
+.right {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.heading {
+    background-color: white;
+    padding: 40px 30px 40px 30px;
+    width: 250px; 
+    text-align: center;
+    color: rgb(19, 19, 110);
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+.heading:hover{
+    color: blue;
+}
+.tick{
+    margin: 0px 30px 0px 0px;
+    padding: 7px;
+}
+.tick:hover{
+    background-color: #d6c7c7;
+}
+.webi{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.all{
+    padding: 10px 15px 10px 15px;
+    border-radius: 35%;
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+}
+.all:hover{
+    background-color: grey;
+    color: black;
+}
+.study{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0px 0px 0px;
+}
+.opac:hover{
+    opacity: 0.4;
+    padding: 30px;
+}
+.beta1{
+    border: 1px solid rgb(228, 223, 223);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(165, 162, 162);
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+}
+.beta1:hover{
+    background-color: rgb(119, 117, 117);
+    padding: 20px;
+}
+.career{
+    font-size: 20px;
+}
+.baap{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.alpha{
+    opacity: 0.4;
+}
+/* newsletter */
+.news{
+    text-align: center;
+    color: rgb(8, 8, 99);
+}
+.dabba{
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    border: 1px solid rgb(124, 121, 121);
+}
+.subscribe{
+    height: 45px;
+    width: 100px;
+    color: rgb(105, 103, 103);
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+}
+.green{
+    background-color:whitesmoke;
+    padding: 20px 0px 30px 0px;
+    margin: 20px 0px 0px 0px;
+    background-color: white;
+}
+/* newsletter */
+/* links */
+.frog1{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px 50px 0px;
+    padding: 10px;
+}
+.frog2{
+    color: rgb(8, 8, 99);
+    font-family: "Lato", sans-serif;
+
+}
+.img1{
+    margin: 0px 10px 0px 0px;
+}
+/* links */
+.cr1{
+    text-align: center;
+    color: blue
+}
+.cr2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.kuch1{
+    border: 2px solid rgb(240, 237, 237);
+    height: 550px;
+    width: 300px;
+    border-radius: 10px ;
+    box-shadow: 5px 5px 5px rgb(201, 199, 199);
+    
+    
+}
+.kuch2{
+    padding: 5px;
+    text-align: center;
+    color: rgb(15, 15, 56);
+
+}
+.kuch3{
+    padding: 5px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+.kuch4{
+    padding: 5px;
+    text-align: center;
+    
+}
+.kuch5{
+    align-items: center;
+    
+}
+.applynow{
+    color: blue;
+}
+.applynow:hover{
+   color: black;
+}
+.kuch{
+    display: flex;
+    gap: 70px;
+    margin-left: 100px;
+}
